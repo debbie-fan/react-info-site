@@ -7,7 +7,11 @@ import reportWebVitals from './reportWebVitals';
 function Page() {
   return (
     <div>
-      <img src={require('./react-logo.png')} width='40' height='40'/>
+      <header>
+        <nav>
+          <img src={require('./react-logo.png')} width='40' height='40'/>
+        </nav>
+      </header>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -16,6 +20,9 @@ function Page() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <footer>
+        <small>© 2022 Fan development. All rights reserved.</small>
+      </footer>
     </div>
   )
 }
