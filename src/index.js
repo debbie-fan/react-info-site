@@ -1,48 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
 
-function Header() {
-  return (
-    <header>
-      <nav className='nav-container'>
-        <img src={require('./react-logo.png')} className='nav-logo'/>
-        <ul className='nav-items'>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  )
-}
-
-function MainContent() {
-  return (
-    <div className='main-content'>
-      <h1>Fun facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100K stars on GitHub</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
-    </div>
-  )
-}
-
-function Footer() {
-  return (
-    <footer className='footer'>
-      <small>© 2022 Fan development. All rights reserved.</small>
-    </footer>
-  )
-}
-
-function Page() {
+function App() {
   return (
     <div>
       <Header/>
@@ -54,7 +18,7 @@ function Page() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Page />
+  <App/>
 );
 
 // If you want to start measuring performance in your app, pass a function
