@@ -7,8 +7,13 @@ import reportWebVitals from './reportWebVitals';
 function Header() {
   return (
     <header>
-      <nav>
-        <img src={require('./react-logo.png')} width='40' height='40'/>
+      <nav className='nav-container'>
+        <img src={require('./react-logo.png')} className='nav-logo'/>
+        <ul className='nav-items'>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   )
@@ -16,7 +21,7 @@ function Header() {
 
 function MainContent() {
   return (
-    <div>
+    <div className='main-content'>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -31,7 +36,7 @@ function MainContent() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className='footer'>
       <small>© 2022 Fan development. All rights reserved.</small>
     </footer>
   )
