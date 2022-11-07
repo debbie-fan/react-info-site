@@ -13,6 +13,6 @@ function MainContent() {
         </ul>
       </div>
     )
-  }
+}
 
-  export default MainContent;
+export default MainContent;

@@ -1,11 +1,11 @@
 import React from 'react';
-import './index.css';
 
 function Header() {
     return (
       <header>
         <nav className='nav-container'>
-          <img src={require('./react-logo.png')} className='nav-logo'/>
+          <img src={require('../assets/react-logo.png')} alt='React logo' className='nav-logo'/>
+          <h3>ReactFacts</h3>
           <ul className='nav-items'>
             <li>Pricing</li>
             <li>About</li>
@@ -14,6 +14,6 @@ function Header() {
         </nav>
       </header>
     )
-  }
+}
 
 export default Header;

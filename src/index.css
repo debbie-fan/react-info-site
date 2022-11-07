@@ -25,6 +25,12 @@ code {
 
 .nav-logo {
   width: 60px;
+  margin-right: 10px;
+}
+
+.nav-container > h3 {
+  margin-right: auto;
+  color: rgb(60, 213, 240);
 }
 
 .nav-items {
@@ -36,7 +42,15 @@ code {
 
 .main-content {
   padding: 20px;
+}
 
+.main-content > ul > li {
+  padding-block: 10px;
+}
+
+.main-content > ul > li::marker {
+  font-size: 1.2rem;
+  color:rgb(60, 213, 240);
 }
 
 .footer {
