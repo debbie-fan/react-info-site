@@ -6,8 +6,11 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(25, 25, 25);
-  color: rgb(233, 238, 240);
+  background-color: #282D35;
+  color: #DEEBF8;
+  background-image: url("./assets/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 code {
@@ -20,7 +23,7 @@ code {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
-  background-color: rgb(15, 15, 15);
+  background-color: #21222A;
 }
 
 .nav-logo {
@@ -30,11 +33,11 @@ code {
 
 .nav-container > h3 {
   margin-right: auto;
-  color: rgb(60, 213, 240);
+  color: #61DAFB;
 }
 
 .nav-items {
-  color: rgb(60, 213, 240);  
+  color: #61DAFB;  
   list-style: none;
   display: flex;
   gap: 15px;
@@ -42,6 +45,7 @@ code {
 
 .main-content {
   padding: 20px;
+  background-image: url();
 }
 
 .main-content > ul > li {
@@ -50,12 +54,12 @@ code {
 
 .main-content > ul > li::marker {
   font-size: 1.2rem;
-  color:rgb(60, 213, 240);
+  color:#61DAFB;
 }
 
 .footer {
   padding: 10px;
-  background-color: rgb(45, 45, 45);
+  background-color: #323741;
   display: flex;
   justify-content: center;
   position: absolute;
